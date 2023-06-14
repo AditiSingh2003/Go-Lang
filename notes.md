@@ -57,9 +57,13 @@ newRating, err := strconv.ParseFlow(strings,Trimspaces(input),64)
 16:- Method
     When functions go in classes they are called methods
     method should contain struct as a part
-    if a data is change the original data doesn't change thus pointer are used to give the actual refrence
+    if a data is change the original data doesn't change thus pointer are used to give the actual reference
 
 17:- Defer
     the execution of the text that is present after defer is done when the function is ending
-    defer function invoked immediately before the surrounding function return int he reverse order they were deffered (LIFO).
+    defer function invoked immediately before the surrounding function return int he reverse order they were defered (LIFO).
 
+18-Files
+    we need IOutils package and defer after when you are done reading and writing so needed to close the file
+    Creation of file we use OS pacakge for the reading and writing or doing manupulation we use IOUTILITY package
+    Data is always read in byte form so use DATABYTE OR DATA
