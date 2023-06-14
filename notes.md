@@ -60,5 +60,6 @@ newRating, err := strconv.ParseFlow(strings,Trimspaces(input),64)
     if a data is change the original data doesn't change thus pointer are used to give the actual refrence
 
 17:- Defer
-    the execution of the text that is present after defer is done when the function is cd
+    the execution of the text that is present after defer is done when the function is ending
+    defer function invoked immediately before the surrounding function return int he reverse order they were deffered (LIFO).
 
