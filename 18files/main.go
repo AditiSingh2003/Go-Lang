@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"io"
-	"ioutil"
+	"io/ioutil"
 	"os"
 )
 
@@ -33,8 +33,7 @@ func readFile(filename string){
 	fmt.Println("File contents:", string(hui))
 }
 
-func checkNilErr(err error)
-{
+func checkNilErr(err error){
 	if(err != nil){
 		panic(err)
 	}
