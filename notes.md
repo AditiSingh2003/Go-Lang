@@ -67,3 +67,13 @@ newRating, err := strconv.ParseFlow(strings,Trimspaces(input),64)
     we need IOutils package and defer after when you are done reading and writing so needed to close the file
     Creation of file we use OS pacakge for the reading and writing or doing manupulation we use IOUTILITY package
     Data is always read in byte form so use DATABYTE OR DATA
+
+19-webRequest
+    it is always important to close the request once generated as if we switch to other function still the current request will be running in the background.
+    defer response.Body.Close()
+    hhtp Package is the package used to GET package is used to retrieve/get the website
+    To read a file ioutils Package is used
+
+20- urls
+    To get the parmeters we use the value result.querry 
+    in partOfUrl we give the value always in refrence &url.URL

@@ -18,4 +18,6 @@ use (
 	./16methods
 	./17defer
 	./18files
+    ./19webrequests
+    ./20urls
 )
