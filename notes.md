@@ -76,4 +76,15 @@ newRating, err := strconv.ParseFlow(strings,Trimspaces(input),64)
 
 20- urls
     To get the parmeters we use the value result.querry 
-    in partOfUrl we give the value always in refrence &url.URL
+    in partOfUrl we give the value always in reference &url.URL
+
+###- Creating server in golang
+    -do npm start
+    -routes and its usage 
+    Thunderclient by ranga extenstion
+    for post request we need to send some of the json data in body
+    form need to be form-encode 
+
+21- WebReqVerb
+    Strings :- Builder:- a builder is used to efficiently build a string using Write method.
+    responseString.String() this will convert the data that is holding in bytes to the 
