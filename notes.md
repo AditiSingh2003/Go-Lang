@@ -88,3 +88,9 @@ newRating, err := strconv.ParseFlow(strings,Trimspaces(input),64)
 21- WebReqVerb
     Strings :- Builder:- a builder is used to efficiently build a string using Write method.
     responseString.String() this will convert the data that is holding in bytes to the 
+    
+    POST:- use /post
+        USE jSON data and url encoded form in data for backend.
+        NewReader syntax: it is a part of strings package and it has a thing that is if we put `` and write the data inside this it will be stored.
+    
+    PostFormRequest:- to make a request we use http.PostForm(myurl,data)
