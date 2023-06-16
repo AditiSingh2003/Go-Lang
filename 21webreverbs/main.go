@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("Welcome to Web Verb")
 	// PerformGetRequest()
 	// PerformPostJsonRequest()
-	// PerformPostFormRequest()
+	PerformPostFormRequest()
 
 }
 
