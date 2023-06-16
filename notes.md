@@ -94,3 +94,16 @@ newRating, err := strconv.ParseFlow(strings,Trimspaces(input),64)
         NewReader syntax: it is a part of strings package and it has a thing that is if we put `` and write the data inside this it will be stored.
     
     PostFormRequest:- to make a request we use http.PostForm(myurl,data)
+
+22-Bitmorejson
+    to give tags we use this type [] strings  [] (data type) and the data inserted is in the form of []string{"abc","xyz"}
+    We use JSON package
+    we need to pass interface in marshal now what is Interface?
+    its a word being borrowed and an alternative version of struct
+    JSON is also byte data
+    to represent a well managed data we use marshalindent and in prefix we dont need to give anything and to indent we need to write "\t"
+    to give the field in a better way or to change the name of the field we use `json:name` this is the name that will be depicted and if we want to hide some fie we use `json : -` this will hide the field to be displayed in terminal
+    whenever we use tags, omite we use a space after comma in this and most of the time it gets error
+
+    when the data comes it is always in bytes
+    if you are not sure about the data that is going to be entered then use interface

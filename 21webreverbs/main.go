@@ -1,5 +1,4 @@
 // check for the server it should be up and running and
-// the url should be something easy i didn't get the url that was given in the video
 
 package main
 
@@ -14,14 +13,17 @@ import (
 
 func main() {
 	fmt.Println("Welcome to Web Verb")
-	// PerformGetRequest()
-	// PerformPostJsonRequest()
+	fmt.Println("Performing Get Request")
+	PerformGetRequest()
+	fmt.Println("Performing Post Request")
+	PerformPostJsonRequest()
+	fmt.Println("Performing Post Form Request")
 	PerformPostFormRequest()
 
 }
 
 func PerformGetRequest(){
-	const myurl = "https://www.google.com"
+	const myurl = " http://localhost:8000"
 
 	response,err := http.Get(myurl)
 	if err != nil {
@@ -41,7 +43,7 @@ func PerformGetRequest(){
 }
 
 func PerformPostJsonRequest(){
-	const myurl = "https://www.google.com"
+	const myurl = " http://localhost:8000"
 	// send to correct url
 	// type of data tell
 	// send data
@@ -69,7 +71,7 @@ func PerformPostJsonRequest(){
 }
 
 func PerformPostFormRequest(){
-	const myurl = "https://www.google.com"
+	const myurl = " http://localhost:8000"
 
 	// formdata
 
