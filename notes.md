@@ -107,3 +107,14 @@ newRating, err := strconv.ParseFlow(strings,Trimspaces(input),64)
 
     when the data comes it is always in bytes
     if you are not sure about the data that is going to be entered then use interface
+
+23- MOD
+    indiret = any file in go is not using the library when once you start using it it will be changed to direct.
+    ServeHome (just teh name) is a type of response in which we can write the response using 'w' and read the response and this is done tih the help of the gorilla mux package.
+    basically mux is used to give the routing and a fucntion is used to call the system locally.
+    Log fatal is used to check for the error
+
+    What is go mod tidy?
+     is removed it tidy all the package it remove all the unused package and brings back the package which are used and are  removed by mistake
+
+    For Production case:- we use go mod vendor it is same as node module

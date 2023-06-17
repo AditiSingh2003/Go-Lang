@@ -22,4 +22,5 @@ use (
     ./20urls
 	./21webreverbs
 	./22bitmorejson
+	./23mymodule
 )
