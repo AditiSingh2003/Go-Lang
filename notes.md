@@ -111,10 +111,15 @@ newRating, err := strconv.ParseFlow(strings,Trimspaces(input),64)
 23- MOD
     indiret = any file in go is not using the library when once you start using it it will be changed to direct.
     ServeHome (just teh name) is a type of response in which we can write the response using 'w' and read the response and this is done tih the help of the gorilla mux package.
-    basically mux is used to give the routing and a fucntion is used to call the system locally.
+    basically mux is used to give the routing and a fucntion is used to call the system locally and the order in which it is written should be taken care of.
     Log fatal is used to check for the error
 
     What is go mod tidy?
      is removed it tidy all the package it remove all the unused package and brings back the package which are used and are  removed by mistake
 
     For Production case:- we use go mod vendor it is same as node module
+
+24- API 
+    Get all the courses, add the courses, delete the courses and update the courses
+
+    Controllers :- to add header we use .Header
